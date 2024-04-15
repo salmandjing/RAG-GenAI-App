@@ -8,7 +8,7 @@ Before getting started, ensure that you have the following prerequisites:
 
 1. **Python Installed**: Make sure you have Python installed on your system.
 2. **AWS CLI Installed**: Install the AWS Command Line Interface (CLI) to interact with AWS services.
-3. **AWS IAM Identity/Role**: Set up an IAM identity or role with the necessary permissions to access Bedrock and other required AWS services. Set up access in your terminal using ''' aws configure '''. [Learn more here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
+3. **AWS IAM Identity/Role**: Set up an IAM identity or role with the necessary permissions to access Bedrock and other required AWS services. Set up access in your terminal using  ```aws configure ```. [Learn more here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 
 ## Getting Started
 
