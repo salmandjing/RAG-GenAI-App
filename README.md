@@ -27,7 +27,7 @@ Before getting started, ensure that you have the following prerequisites:
    # Specify the model, region, and knowledge base ID, and title
    model_id = "anthropic.claude-3-sonnet-20240229-v1:0"  # This is the model ID. You can find this in Bedrock under the model you want to use.
    region = "us-east-1" # Specify the region you are using
-   kb_id = "SFZ4L3HHIS"  # This is the knowledge base ID
+   kb_id = "XXXX"  # This is the knowledge base ID
    knowledge_base_title = "XXXX"  # This is the title of the knowledge base. Rename it based on the kind of application you are building. Ex: Wind Turbine Technician / Travel Agent Advisor
    ```
 8. **Run the Application**: Open a terminal, navigate to the `streamlit` folder, and run the following command:
