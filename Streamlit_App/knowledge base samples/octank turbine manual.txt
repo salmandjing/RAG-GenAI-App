@@ -1,0 +1,170 @@
+Here is a sample wind turbine technician handbook for the company Octank:
+
+# Octank Wind Turbine Technician Handbook
+
+## Overview
+
+This handbook provides detailed technical information, troubleshooting procedures, and maintenance instructions for Octank wind turbines. It is intended for use by trained wind turbine technicians. 
+
+Safety is the top priority when working on turbines. All applicable company and regulatory safety protocols must be followed at all times. This includes proper usage of personal protective equipment (PPE), lockout/tagout procedures, working at heights safety, and other precautions.
+
+## Wind Turbine System Overview
+
+Octank wind turbines consist of the following major components:
+
+- **Rotor Blades** - The aerodynamic blades that capture wind energy and rotate the rotor hub.
+- **Rotor Hub & Pitch Bearings** - The hub that the blades attach to and pitching mechanisms to control blade angles.
+- **Main Shaft & Main Bearing** - The main rotating shaft that the rotor hub attaches to and the main bearing it rotates within. 
+- **Gearbox** - Increases the rotational speeds from the main shaft to the generator.
+- **Generator** - Converts the rotational energy into electrical energy.
+- **Yaw System** - Rotates the nacelle to face the rotor into the wind.
+- **Tower** - The vertical tower structure that supports the nacelle and rotor.
+- **Control Systems** - Computer controls, sensors, and hydraulic systems.
+
+## Troubleshooting Common Issues
+
+Below are some common issues with Octank turbines and the procedures for troubleshooting and repair:
+
+### Generator Not Producing Power
+1. Check generator electrical output on the controller. If no output, proceed to next step.
+2. Check generator sensor data - temperature, RPMs, etc. Abnormal readings may indicate a fault.
+3. Shutdown turbine and perform visual inspection of generator for damage.
+4. If damage is found, submit work order to replace generator components as needed.
+5. If no damage, run generator diagnostic software and repair per the results.
+
+### Abnormal Gearbox Temperature/Noise
+1. Check gearbox temperature and noise sensors on the controller. 
+2. If overtemp or high noise, shutdown turbine immediately to prevent damage.
+3. Perform a gearbox oil analysis to check for metal shavings and lubrication quality.
+4. If oil is contaminated or depleted, drain gearbox and replace with new lubricant.
+5. If gear damage is suspected from analysis, submit work order to replace gearbox components.
+
+### Pitch System Fault
+1. Check pitch system hydraulic pressure. Low pressure indicates leak or problem.
+2. Inspect pitch motors and actuators for leaks, damage, or obstructions.
+3. Check pitch motor sensors and wiring for faults.
+4. Run pitch system diagnostics to isolate issue to components.
+5. Replace failed components - motors, actuators, pumps, valves, etc.
+
+### Yaw System Fault
+1. Ensure yaw system is enabled and receiving wind direction data.
+2. Visually inspect yaw motors, gearboxes, and brake for damage or obstructions
+3. Check yaw encoder for proper calibration and functionality.  
+4. Run yaw system diagnostics to isolate issue to components.
+5. Replace yaw motors, gearboxes, brakes, encoders as needed.
+
+### Physical Damage Assessment & Repair
+
+**Ice Damage**
+Ice buildup on turbine blades can cause imbalance and damage if left unchecked. At first sign of ice, the turbine must be shut down and the blades de-iced. Follow approved de-icing procedures to safely remove ice. Once ice is removed, a full inspection of blades, hub, and other components should be performed to check for cracks or other damage from ice shedding. If damage is found, follow blade repair or replacement procedures.  
+
+Here are added details on fire/burn damage and blade damage procedures for Octank wind turbines:
+
+**Fire/Burn Damage Procedures**
+
+In the event of a fire on an Octank wind turbine, the following protocols must be followed:
+
+1. **Immediate Shutdown & Fire Response**
+    - Use the emergency stop button in the nacelle or remote stop functions to immediately shut down the turbine.
+    - Call the Octank Fire Emergency Hotline at 1-800-555-FIRE and report the fire, location, and any injuries.
+    - If safe to do so, use on-site fire suppression equipment to attempt to extinguish the fire until emergency responders arrive.
+    - Evacuate the area and do not re-enter until cleared by fire officials.
+
+2. **Damage Assessment**
+    - Once the fire is extinguished, assemble the Octank Burn Damage Assessment Team consisting of:
+        - Certified Fire Investigator
+        - Wind Turbine Engineers
+        - Safety Officers
+    - Follow all applicable safety protocols including special PPE for investigating burn areas.
+    - Perform a full internal and external inspection of all turbine components to catalog any areas with burn or heat damage.
+    - Any burn damage to components requires those parts be replaced, even if minor burn marks.
+    - Use borescopes and other tools to inspect internal areas like gearboxes, generators, etc for foreign contaminants or heat exposure.
+    - Determine the scope of needed component replacements and prepare a full assessment report.
+
+3. **Repair/Replacement Procedures**
+    - Damaged areas must be fully cleaned and decontaminated before repairs. Use approved cleaning methods.
+    - Order all required replacement parts per the Ordering Replacement Parts procedures.
+    - Assemble a dedicated repair team and cordon off a safe work area around the turbine.
+    - Carefully remove and discard any burn damaged components per hazmat disposal procedures.
+    - Install new replacement components, following all procedures for proper assembly, torqueing, calibrations, etc.
+    - Complete all necessary testing, start-up, and commissioning procedures to return turbine to service.
+
+4. **Investigation & Root Cause Analysis**
+    - Work with the designated Fire Investigator, Safety team, and outside authorities if needed to determine the root cause of the fire event.
+    - Identify any potential design flaws, operating procedure gaps, or human errors that may have contributed.
+    - Implement any corrective actions, design changes, training, or other mitigation procedures across all turbines. 
+    - File all incident reports and findings per Octank protocols.
+
+**Blade Damage & Repair Procedures**
+
+The rotor blades are one of the most critical and expensive components of a wind turbine. Any blade damage needs prompt and proper attention. Octank has detailed blade assessment and repair procedures:
+
+1. **Routine Blade Inspections**
+    - Blades are inspected at minimum annually, but more frequently per maintenance schedules.
+    - A full manual visual inspection is performed with blades feathered.
+    - Technicians use drones equipped with high-res cameras to inspect hard to access areas.
+    - Known problem areas like leading edges get extra scrutiny.
+    - Any signs of cracks, delaminations, erosion, lightning strikes, etc. are logged and mapped.
+
+2. **Damage Classification & Repair Determination** 
+    - All blade damage is categorized into one of the following classes: 
+        - Class A: Minor leading edge erosion only
+        - Class B: Moderate damage but no structural impact
+        - Class C: Major damage impacting structural integrity
+        - Class D: Extreme damage/complete loss requiring full blade replacement
+    - Class A & B damage is repairable in the field
+    - Class C may require removing the blade and workshop repairs 
+    - Class D blades must be replaced entirely
+    - Octank engineering performs detailed damage modeling to determine criticality.
+
+3. **Field Blade Repair Procedures**
+    - For Class A & B repairable damage:
+        - Create a controlled repair area with wind/weather coverings
+        - Use specialized tools and grinding wheels to carefully remove any debris or cracks
+        - Apply repair putties and resins to rebuild any missing material 
+        - Allow to fully cure per compounds used
+        - Refinish repaired areas with protective coatings 
+    - Extremely precise procedures must be followed to ensure a quality, long-lasting repair.
+
+4. **Workshop Blade Repairs** 
+    - For Class C damage, the blade may need to be removed and shipped to an approved blade repair facility.
+    - The blade is thoroughly inspected for all damage areas and detailed scans performed.
+    - Internal structural repairs may be required by removing large areas or entire sections of blade skin.
+    - Once repairs are completed, blades are refinished, balanced, and prepared for reinstallation.
+
+5. **Replacement Blades**
+    - Any Class D blades with extreme damage must be replaced entirely.
+    - Follow all procedures for proper blade removal and reinstallation.
+    - Use only Octank-certified replacement blades ordered through proper channels.
+    - Replacement blades often need to be rebalanced and have updated calibration of pitch system.
+
+Any blade repairs or replacements require full documentation, inspection sign-offs, and startup testing before returning the turbine to normal operation. Octank has zero tolerance for any substandard blade work that could jeopardize safety and performance.
+## Ordering Replacement Parts
+If during inspections or repairs, any turbine components are deemed in need of replacement due to excessive wear, damage, or defects, a replacement part work order must be submitted per company procedures:
+
+1. Log into the Octank Parts Portal at parts.octank.com with your technician credentials.
+2. Enter the wind farm site information and specific turbine ID number. 
+3. Enter the part category, number, name, brief description of needed replacement reason.
+4. The portal will provide current pricing and availability information.
+5. For standard/stocked parts, you can submit the order directly in the portal.
+6. For longer lead time, special order components, submit a draft order for review by management.
+7. Once approved, the order will be processed and you'll be notified of expected delivery dates.
+8. Schedule the turbine down for maintenance when parts arrive to complete the replacement work.
+
+For emergency replacements needed due to failures, call the 24/7 Octank Parts Hotline at 1-800-555-WIND to expedite critical parts.
+
+## Routine Preventative Maintenance
+In addition to repairing faults and damage, technicians must adhere to all routine preventative maintenance procedures and schedules to ensure optimal performance and uptime of the turbines:
+
+- Gearbox oil sampling and changes
+- Hydraulic fluid sampling and changes 
+- Bearing greasing and inspections
+- Bolt torque verification
+- Up-tower electrical inspections
+- Ground path/lightning protection checks
+- Etc.
+
+Refer to the Preventative Maintenance Schedule guidelines for full details on maintenance procedures and intervals.
+
+## Conclusion
+This technician handbook covers the key technical information, troubleshooting guides, damage assessment procedures, parts ordering, and maintenance requirements for working on Octank wind turbines. All information should be thoroughly reviewed and understood. Safety is paramount - all work should be performed safely by trained personnel following proper procedures.
