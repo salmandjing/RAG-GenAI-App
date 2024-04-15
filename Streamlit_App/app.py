@@ -5,13 +5,13 @@ import pandas as pd
 from PIL import Image, ImageOps, ImageDraw
 
 # Specify the model, region, and knowledge base ID, and title
-model_id = "anthropic.claude-3-sonnet-20240229-v1:0" # This is the model ID. You can find this in Bedrock under the model you want to use.
+model_id = "anthropic.claude-3-haiku-20240307-v1:0" # This is the model ID. You can find this in Bedrock under the model you want to use.
 region = "us-east-1" 
-kb_id = "XXXX" # This is the knowledge base ID
-knowledge_base_title = "XXXX" # This is the title of the knowledge base. Rename it based on the kind of application you are building.
+kb_id = "SFZ4L3HHIS" # This is the knowledge base ID
+knowledge_base_title = "Octank Internal Asset Assitant" # This is the title of the knowledge base. Rename it based on the kind of application you are building.
 
 # Streamlit page configuration
-st.set_page_config(page_title="Travel Advisor", page_icon=":robot_face:", layout="wide")
+st.set_page_config(page_title="AI Powered Assistant", page_icon=":robot_face:", layout="wide")
 
 # Function to crop image into a circle
 def crop_to_circle(image):
@@ -36,7 +36,7 @@ submit_button = st.button("Submit", type="primary")
 end_session_button = st.button("End Session")
 
 # Sidebar for user input
-infomation = "This is a generative AI application that can answer questions about XXXXX. Please ask a question and click submit."
+infomation = "This is a generative AI application that can answer questions about using RAG running on an Amazon Bedrock Knowledge Base. Please ask a question and click submit."
 st.sidebar.text_area(knowledge_base_title,value=infomation, height=300)
     
 
