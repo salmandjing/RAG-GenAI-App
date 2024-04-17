@@ -7,7 +7,7 @@ from PIL import Image, ImageOps, ImageDraw
 # Specify the model, region, and knowledge base ID, and title
 model_id = "anthropic.claude-3-haiku-20240307-v1:0" # This is the model ID. You can find this in Bedrock under the model you want to use.
 region = "us-east-1" 
-kb_id = "SFZ4L3HHIS" # This is the knowledge base ID
+kb_id = "XXXXX" # This is the knowledge base ID
 knowledge_base_title = "Octank Internal Asset Assitant" # This is the title of the knowledge base. Rename it based on the kind of application you are building.
 
 # Streamlit page configuration
