@@ -8,26 +8,25 @@ Before getting started, ensure that you have the following prerequisites:
 
 1. **Python Installed**: Make sure you have Python installed on your system.
 2. **AWS CLI Installed**: Install the AWS Command Line Interface (CLI) to interact with AWS services.
-3. **AWS IAM Identity/Role**: Set up an IAM identity or role with the necessary permissions to access Bedrock and other required AWS services. Set up access in your terminal using ''' aws configure '''. [Learn more here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
+3. **AWS IAM Identity/Role**: Set up an IAM identity or role with the necessary permissions to access Bedrock and other required AWS services. Set up access in your terminal using  ```aws configure ```. [Learn more here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 
 ## Getting Started
-
-1. **S3 File**: Add a file to an S3 bucket that you want to use as the foundation for your Bedrock knowledge base.
-2. **Bedrock Access**: Ensure that you have access to the Bedrock model you want to use in your application.
-3. **Knowledge Base Setup**: Set up your Bedrock knowledge base using the S3 file from the previous step. Make a note of your knowledge base ID.
-
-4. **Clone the Repository**: Clone this repository to your local machine.
-5. **Navigate to the Streamlit Folder**: Change your working directory to the `streamlit` folder within the cloned repository.
-6. **Install Dependencies**: Run the following command to install the required dependencies:
+1. **Clone the Repository**: Clone this repository to your local machine.
+2. **Navigate to the Streamlit Folder**: Change your working directory to the `streamlit` folder within the cloned repository.
+3. **Install Dependencies**: Run the following command to install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
+4. **S3 File**: Add a file to an S3 bucket that you want to use as the foundation for your Bedrock knowledge base.
+5. **Bedrock Access**: Ensure that you have access to the Bedrock model you want to use in your application.
+6. **Knowledge Base Setup**: Set up your Bedrock knowledge base using the S3 file from the previous step. Make a note of your knowledge base ID.
+
 7. **Configure the Application**: Open the `app.py` file and update the following lines with your specific information:
    ```python
    # Specify the model, region, and knowledge base ID, and title
    model_id = "anthropic.claude-3-sonnet-20240229-v1:0"  # This is the model ID. You can find this in Bedrock under the model you want to use.
    region = "us-east-1" # Specify the region you are using
-   kb_id = "SFZ4L3HHIS"  # This is the knowledge base ID
+   kb_id = "XXXX"  # This is the knowledge base ID
    knowledge_base_title = "XXXX"  # This is the title of the knowledge base. Rename it based on the kind of application you are building. Ex: Wind Turbine Technician / Travel Agent Advisor
    ```
 8. **Run the Application**: Open a terminal, navigate to the `streamlit` folder, and run the following command:
